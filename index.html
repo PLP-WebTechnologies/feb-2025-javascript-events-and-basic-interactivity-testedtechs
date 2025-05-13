@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Javascript Events Assignment</h1>
+
+    <button id="actionButton">Click Me!</button>
+    <div id="hoverBox">Hover over me!</div>
+    <input type="text" id="keypressInput" placeholder="Type something...">
+    <button id="secretButton">Double Click or Long Press Me!</button>
+
+    <div class="tabs">
+        <button class="tablink" onclick="openTab('Tab1')">Tab 1</button>
+        <button class="tablink" onclick="openTab('Tab2')">Tab 2</button>
+    </div>
+    <div id="Tab1" class="tabcontent">This is Tab 1 content</div>
+    <div id="Tab2" class="tabcontent" style="display:none;">This is Tab 2 content</div>
+
+    <form id="sampleForm">
+        <input type="text" id="name" placeholder="Name" required><br>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

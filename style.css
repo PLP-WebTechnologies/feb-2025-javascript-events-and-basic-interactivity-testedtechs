@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#hoverBox {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    margin: 10px 0;
+}
+
+.tabcontent {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
